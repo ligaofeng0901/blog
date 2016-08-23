@@ -1,0 +1,245 @@
+{
+    "res": {
+        "page/about.blade.php": {
+            "uri": "about.blade.php",
+            "type": "php"
+        },
+        "page/index.blade.php": {
+            "uri": "index.blade.php",
+            "type": "php",
+            "deps": [
+                "page/index.js"
+            ]
+        },
+        "widget/footer/footer.blade.php": {
+            "uri": "/widget/footer/footer.blade.php",
+            "type": "php"
+        },
+        "widget/header/header.blade.php": {
+            "uri": "/widget/header/header.blade.php",
+            "type": "php",
+            "deps": [
+                "widget/header/header.js"
+            ]
+        },
+        "widget/layout/2-cols-with-left.blade.php": {
+            "uri": "/widget/layout/2-cols-with-left.blade.php",
+            "type": "php"
+        },
+        "widget/layout/frame.blade.php": {
+            "uri": "/widget/layout/frame.blade.php",
+            "type": "php",
+            "extras": {
+                "async": [
+                    "components/bootstrap/bootstrap.js",
+                    "components/jquery/jquery.js"
+                ]
+            }
+        },
+        "widget/layout/front.blade.php": {
+            "uri": "/widget/layout/front.blade.php",
+            "type": "php"
+        },
+        "widget/sidebar/sidebar.blade.php": {
+            "uri": "/widget/sidebar/sidebar.blade.php",
+            "type": "php"
+        },
+        "page/index.js": {
+            "uri": "/static/page/index.js",
+            "type": "js",
+            "extras": {
+                "moduleId": "page/index"
+            },
+            "deps": [
+                "components/jquery/jquery.js",
+                "static/libs/alert.js"
+            ]
+        },
+        "widget/header/header.js": {
+            "uri": "/static/widget/header/header.js",
+            "type": "js",
+            "extras": {
+                "moduleId": "widget/header/header"
+            }
+        },
+        "static/js/mod.js": {
+            "uri": "/static/js/mod.js",
+            "type": "js"
+        },
+        "static/css/normalize.css": {
+            "uri": "/static/css/normalize.css",
+            "type": "css"
+        },
+        "components/bootstrap/css/bootstrap.css": {
+            "uri": "/static/components/bootstrap/css/bootstrap.css",
+            "type": "css",
+            "extras": {}
+        },
+        "static/css/style.css": {
+            "uri": "/static/css/style.css",
+            "type": "css"
+        },
+        "components/bootstrap/bootstrap.js": {
+            "uri": "/static/components/bootstrap/bootstrap.js",
+            "type": "js",
+            "extras": {
+                "moduleId": "components/bootstrap/bootstrap"
+            },
+            "deps": [
+                "components/bootstrap/util.js",
+                "components/bootstrap/alert.js",
+                "components/bootstrap/button.js",
+                "components/bootstrap/carousel.js",
+                "components/bootstrap/collapse.js",
+                "components/bootstrap/dropdown.js",
+                "components/bootstrap/modal.js",
+                "components/bootstrap/scrollspy.js",
+                "components/bootstrap/tab.js",
+                "components/bootstrap/tooltip.js",
+                "components/bootstrap/popover.js"
+            ]
+        },
+        "components/jquery/jquery.js": {
+            "uri": "/static/components/jquery/jquery.js",
+            "type": "js",
+            "extras": {
+                "moduleId": "components/jquery/jquery"
+            }
+        },
+        "widget/sidebar/sidebar.css": {
+            "uri": "/static/widget/sidebar/sidebar.css",
+            "type": "css"
+        },
+        "static/libs/alert.js": {
+            "uri": "/static/libs/alert.js",
+            "type": "js",
+            "extras": {
+                "moduleId": "static/libs/alert"
+            },
+            "deps": [
+                "components/bootstrap/bootstrap.js",
+                "components/jquery/jquery.js"
+            ]
+        },
+        "components/bootstrap/util.js": {
+            "uri": "/static/components/bootstrap/util.js",
+            "type": "js",
+            "extras": {
+                "moduleId": "components/bootstrap/util"
+            },
+            "deps": [
+                "components/jquery/jquery.js"
+            ]
+        },
+        "components/bootstrap/alert.js": {
+            "uri": "/static/components/bootstrap/alert.js",
+            "type": "js",
+            "extras": {
+                "moduleId": "components/bootstrap/alert"
+            },
+            "deps": [
+                "components/jquery/jquery.js",
+                "components/bootstrap/util.js"
+            ]
+        },
+        "components/bootstrap/button.js": {
+            "uri": "/static/components/bootstrap/button.js",
+            "type": "js",
+            "extras": {
+                "moduleId": "components/bootstrap/button"
+            },
+            "deps": [
+                "components/jquery/jquery.js"
+            ]
+        },
+        "components/bootstrap/carousel.js": {
+            "uri": "/static/components/bootstrap/carousel.js",
+            "type": "js",
+            "extras": {
+                "moduleId": "components/bootstrap/carousel"
+            },
+            "deps": [
+                "components/jquery/jquery.js",
+                "components/bootstrap/util.js"
+            ]
+        },
+        "components/bootstrap/collapse.js": {
+            "uri": "/static/components/bootstrap/collapse.js",
+            "type": "js",
+            "extras": {
+                "moduleId": "components/bootstrap/collapse"
+            },
+            "deps": [
+                "components/jquery/jquery.js",
+                "components/bootstrap/util.js"
+            ]
+        },
+        "components/bootstrap/dropdown.js": {
+            "uri": "/static/components/bootstrap/dropdown.js",
+            "type": "js",
+            "extras": {
+                "moduleId": "components/bootstrap/dropdown"
+            },
+            "deps": [
+                "components/jquery/jquery.js",
+                "components/bootstrap/util.js"
+            ]
+        },
+        "components/bootstrap/modal.js": {
+            "uri": "/static/components/bootstrap/modal.js",
+            "type": "js",
+            "extras": {
+                "moduleId": "components/bootstrap/modal"
+            },
+            "deps": [
+                "components/jquery/jquery.js",
+                "components/bootstrap/util.js"
+            ]
+        },
+        "components/bootstrap/scrollspy.js": {
+            "uri": "/static/components/bootstrap/scrollspy.js",
+            "type": "js",
+            "extras": {
+                "moduleId": "components/bootstrap/scrollspy"
+            },
+            "deps": [
+                "components/jquery/jquery.js",
+                "components/bootstrap/util.js"
+            ]
+        },
+        "components/bootstrap/tab.js": {
+            "uri": "/static/components/bootstrap/tab.js",
+            "type": "js",
+            "extras": {
+                "moduleId": "components/bootstrap/tab"
+            },
+            "deps": [
+                "components/jquery/jquery.js",
+                "components/bootstrap/util.js"
+            ]
+        },
+        "components/bootstrap/tooltip.js": {
+            "uri": "/static/components/bootstrap/tooltip.js",
+            "type": "js",
+            "extras": {
+                "moduleId": "components/bootstrap/tooltip"
+            },
+            "deps": [
+                "components/jquery/jquery.js",
+                "components/bootstrap/util.js"
+            ]
+        },
+        "components/bootstrap/popover.js": {
+            "uri": "/static/components/bootstrap/popover.js",
+            "type": "js",
+            "extras": {
+                "moduleId": "components/bootstrap/popover"
+            },
+            "deps": [
+                "components/jquery/jquery.js",
+                "components/bootstrap/tooltip.js"
+            ]
+        }
+    },
+    "pkg": {}
+}
